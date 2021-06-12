@@ -8,7 +8,7 @@
 /*global style */
 
 body{
-    font-family: "Merriweather";
+    font-family: "Merriweather", sans-serif;
     background-color: #ebf2ff;
     overflow-x: hidden;
 }
@@ -52,6 +52,7 @@ body{
 .hero__container{
     width: 100%;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .hero__image__container{
@@ -60,6 +61,12 @@ body{
 
 .hero__image{
     width: 100%;
+}
+.hero__text{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+
 }
 
 @media (min-width: 768px){
